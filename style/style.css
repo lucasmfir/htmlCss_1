@@ -1,0 +1,187 @@
+main h1 {
+	font-size: 60px;
+	padding: 25px;
+	background-color: #851944;
+	text-align: center;
+	color: rgb(255, 255, 250);
+	margin: 0;
+	border-bottom: 10px solid black;
+	text-transform: uppercase;
+
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	
+}
+
+h2 {
+	font-size: 30px;
+	clear: both;
+}
+
+body {
+	font-family: "Crimison Text", "Times New Roman", serif;
+	background-color: #F2FFFC; 
+	line-height: 1.5;
+}
+
+main a{
+	color: #851944;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+blockquote {
+	background-color: #D9E5E3;
+	padding: 20px;
+	margin: 20px 40px;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+nav a{
+	color: #F2FFFC;
+}
+
+
+.footer-pagina {
+	background-color: black;
+	color: #F2FFFC;
+	padding-top: 0px;
+	padding-left: 20px;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	box-sizing: border-box;
+	
+	}
+
+.footer-tags {
+	padding-top: 0px;
+	padding-left: 20px;
+}
+
+aside {
+	background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+    float: right;
+    box-sizing: border-box;
+    width: 15%;
+    position: relative;
+    top: 308px;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+aside a{
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside h1{
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+em {
+	font-style: italic; 
+}
+
+strong {
+	font-weight: bold;
+}
+
+.icones-sociais li {
+	display: inline-block;
+}
+
+.icones-sociais a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+.github {
+	background-image: url(../img/github.png);
+}
+
+.twitter {
+	background-image : url(../img/twitter.png);
+}
+
+.linkedin {
+	background-image: url(../img/linkedin.png);
+}
+
+article {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.leia-mais {
+	padding: 9px;
+	margin: 16px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
+}
+
+.fiat {
+	float: right;
+	margin-left: 10px;
+}
+
+.petrobras {
+	float: left;
+	margin-right: 10px; 
+}
+
+main {
+	float: left;
+	width: 85%;
+	padding-bottom: 40px;
+}
+
+.foto-menu {
+	width: 300px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+
+.lista-portifolio li {
+	display: inline-block;
+    border: 8px solid black;
+    background-color: #FAFFFC;
+    width: 45%;
+    box-sizing: border-box;
+    padding: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.lista-portifolio img {
+	width: 100%;
+}
